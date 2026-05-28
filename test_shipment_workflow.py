@@ -1,7 +1,7 @@
 """
 test_shipment_workflow.py
 
-End-to-end integration test for the Part 2 GoComet Nova shipment pipeline.
+End-to-end integration test for the Part 2 CargoNova AI shipment pipeline.
 
 Simulates the complete workflow for a single shipment folder:
     load_shipment()
@@ -219,7 +219,7 @@ def step_decide(validation_report: dict) -> dict:
 def main() -> None:
     print()
     print("╔══════════════════════════════════════════════════════════════════════╗")
-    print("║   GoComet Nova Part 2 — End-to-End Shipment Workflow Test           ║")
+    print("║   CargoNova AI Part 2 — End-to-End Shipment Workflow Test           ║")
     print("╚══════════════════════════════════════════════════════════════════════╝")
     print(f"  Shipment  : {SHIPMENT_ID}")
     print(f"  Directory : {SHIPMENT_DIR.resolve()}")

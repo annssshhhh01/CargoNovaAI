@@ -36,7 +36,7 @@ RULES_CONTEXT = json.dumps(
 )
 
 st.set_page_config(
-    page_title="GoComet Nova · CG Shipment Console",
+    page_title="CargoNova AI · CG Shipment Console",
     page_icon="🚢",
     layout="wide",
 )
@@ -135,7 +135,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 st.markdown("""
 <div style="padding:20px 0 10px">
   <div style="font-size:1.7rem;font-weight:700;color:#f1f5f9;letter-spacing:-.02em">
-    🚢 GoComet Nova — CG Shipment Console
+    🚢 CargoNova AI — CG Shipment Console
   </div>
   <div style="color:#475569;font-size:0.88rem;margin-top:4px">
     Multi-agent trade document validation · LangGraph · Groq Vision

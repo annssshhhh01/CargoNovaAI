@@ -1,4 +1,4 @@
-# GoComet Nova — Shipment Validation Pipeline
+# CargoNova AI — Shipment Validation Pipeline
 
 > An AI pipeline that reads shipment documents, checks them against a customer's rules, and drafts a reply email — automatically.
 
@@ -54,7 +54,7 @@ Every result is saved to a local SQLite database. The dashboard has a plain-Engl
 ## Project structure
 
 ```
-gocometpart2/
+cargonova-ai/
 │
 ├── app.py                    # Streamlit UI — the main dashboard
 ├── config.py                 # Customer rules (what fields should look like)

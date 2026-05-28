@@ -12,7 +12,7 @@ No LLM calls. No SMTP. CG reviews the draft and clicks Send.
 from __future__ import annotations
 
 _MAX_BULLETS = 4          # surface at most this many issue bullets
-_CG_SIGN_OFF = "GoComet Nova · CG Validation Team"
+_CG_SIGN_OFF = "CargoNova AI · CG Validation Team"
 
 
 def _subject(shipment_id: str, decision: str) -> str:
